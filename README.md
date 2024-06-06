@@ -5,9 +5,10 @@ Reproduces https://github.com/renovatebot/renovate/discussions/26549
 For a config with `postUpgradeTasks` but without `allowedPostUpgradeCommands`,
 tasks are silently ignored.
 
-[Debug-level logs](https://github.com/pkubowicz/renovate-post-upgrade/actions/runs/9406278589/job/25909364477)
+[Debug-level logs](https://github.com/pkubowicz/renovate-post-upgrade/actions/runs/9407275075/job/25912659257#step:3:693)
 do not contain string 'post-upgrade'.
 String 'postUpgrade' only appears when the config is logged.
+There are no warnings logged.
 
 ## Expected behaviour
 
